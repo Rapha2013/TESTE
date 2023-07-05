@@ -22,10 +22,41 @@ Siga os passos abaixo para configurar e executar o projeto:
     ```bash
     git clone https://github.com/seu-usuario/meu-projeto-laravel.git
     ```
-    
-2. Configure o arquivo .env: 
-3. Instale as dependências do Composer:
+
+2. Instale as dependências do Composer:
+
+    ```bash
+    composer install
+    ```
+
+3. Configure o arquivo .env: 
+
+    ```bash
+    Faça uma cópia do arquivo .env.example e renomeie-o para .env.
+    ```
+
+4. Gere uma nova chave de aplicativo:
+
+    ```bash
+    php artisan key:generate
+    ```
+
 4. Execute as migrações do banco de dados:
+
+    ```bash
+    php artisan migrate
+    ```
+
 5. Execute as sementes (seeds):
-6. nicie o servidor de desenvolvimento: 
+
+    ```bash
+    php artisan db:seed
+    ```
+
+6. Inicie o servidor de desenvolvimento: 
    
+    ```bash
+    php artisan serve
+    ```
+
+O servidor será executado em http://localhost:8000. Você pode acessar o aplicativo em seu navegador.
