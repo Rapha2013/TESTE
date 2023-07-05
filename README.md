@@ -13,6 +13,8 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados em su
 - PHP (versão 8.1 ou superior)
 - Composer
 
+Observações: Vamos utilizar o banco de dados SQLite para este projeto.
+
 ## Instalação
 
 Siga os passos abaixo para configurar e executar o projeto:
