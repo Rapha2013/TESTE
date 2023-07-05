@@ -312,7 +312,7 @@ return [
         ],
         [
             'text' => 'Categorias',
-            'url'  => 'admin/settings',
+            'url'  => '/categories',
             'icon' => 'fas far fa-list-alt',
         ],
     ],

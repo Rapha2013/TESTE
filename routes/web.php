@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Product\CategoryController;
 use App\Http\Controllers\Product\ProductController;
 use Illuminate\Support\Facades\Route;
 
@@ -25,5 +26,6 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
     // Route::get('/products', [App\Http\Controllers\Product\ProductController::class, 'index'])->name('products');
     Route::resources([
         'products' => ProductController::class,
+        'categories' => CategoryController::class
     ]);
 });
